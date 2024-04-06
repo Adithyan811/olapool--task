@@ -23,7 +23,7 @@ function ThreeDot() {
     };
   return (
    <>
-    <div style={{marginLeft:'120px'}} >
+    <div style={{marginLeft:'120px',padding:'30px'}} >
       <IconButton
         aria-label="more"
         id="long-button"

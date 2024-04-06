@@ -3,7 +3,7 @@
 }
 .rounddiv{
   border-radius: 10px;
-  background-color: #ea7efc;
+  background-color: #9cbae6;
   color: white;
   width: 20px;
   height: 20px;
@@ -26,7 +26,7 @@
 }
 *{
   font-family: "Arsenal", sans-serif;
- 
+
  
 }
 
@@ -49,12 +49,20 @@
 }
 
 .list:hover{
-  background-color:#1a75ff ;
+  background-color:#4382e9 ;
 }
 
 .third{
   overflow: auto;
+  
 }
 #mainbuttons:hover{
-  background-color:#1a75ff;
+  background-color:#5c71eb;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .rounddiv {
+    display: none;
+  }
 }

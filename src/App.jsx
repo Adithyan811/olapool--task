@@ -34,9 +34,9 @@ function App() {
             <div className='proDiv mt-3 ms-2'> <img className='profile' src={profile} alt="" /></div>
 
             <div className='ms-5 mt-2 '>
-              <h6 style={{ marginTop: '14px', fontSize: '19px', fontWeight: 'bold' }}>  Nabeel K N</h6>
+              <h6 style={{ marginTop: '14px', fontSize: '19px', fontWeight: 'bold' }}> Adithyan U</h6>
               <p className='text-success' style={{ fontSize: '13px', marginTop: '-10px', fontWeight: 'bold' }}> Verification Level 3</p>
-              <p style={{ color: '#a1a1a1', fontSize: '12px', marginTop: '-20px' }}> Ernamkulam ,India</p>
+              <p style={{ color: '#a1a1a1', fontSize: '12px', marginTop: '-20px' }}> palakkad,India</p>
             </div>
           </div>
 
@@ -55,7 +55,7 @@ function App() {
             </div>
           </div>
 
-          <div className='third mt-4 ms-3 ' style={{ height: '200px', width: '280px' }}>
+          <div className='third mt-4 ms-3  ' style={{ height: '200px', width: '280px' }}>
             <Stack gap={3}>
               <div className='list p-2 ms-2 d-flex border rounded mt-2' style={{ height: '40px', width: '240px' }}><CiGrid42 size={25} />
                 <p style={{ color: '#a1a1a1' }} className='ms-1'>Overview</p>
@@ -92,7 +92,7 @@ function App() {
 
           </div>
         </div>
-<div className='col-lg-1' style={{backgroundColor: '#ebebeb' }}>
+<div className='col-lg-1' style={{backgroundColor: 'white' }}>
   {/* Products , orders , store settings */}
   <div style={{marginTop:'170px'}}>
 <button className=' btn rounded shadow  ' id='mainbuttons' style={{width:'100px', height:'40px', marginLeft:'-4px'}}><p style={{fontSize:'13px', fontWeight:'bold'}}>Products</p></button>
@@ -100,7 +100,7 @@ function App() {
 <button  className=' btn rounded shadow mt-3'id='mainbuttons'  style={{width:'100px', height:'40px', marginLeft:'-4px'}}> <p style={{fontSize:'13px', fontWeight:'bold'}}>Store settings</p></button>
 </div>
 </div>
-        <div className='col-lg-8' style={{ backgroundColor: '#ebebeb' }}>
+        <div className='col-lg-8' style={{ backgroundColor: 'white' }}>
 
           {/* dropdowns */}
           <div className='d-flex mt-4 gap-3' style={{ marginLeft: '200px' }} >
@@ -137,7 +137,7 @@ function App() {
           </div>
 
 
-          <div className="" style={{ height: '425px', width: '800px', backgroundColor: 'white', marginTop: '29px', marginLeft: '0px' }}>
+          <div className="" style={{ height: '425px', width: '800px', marginTop: '29px', marginLeft: '0px',backgroundColor: 'white' }}>
 
             <div className='d-flex ' style={{}}>
               {/* searchbar */}
@@ -158,7 +158,7 @@ function App() {
               </Dropdown>
             </div>
 
-            <div className='d-flex justify-content-evenly mt-2'>
+            <div className='d-flex justify-content-evenly mt-2 ' style={{backgroundColor: 'white'}}>
 
               <Button variant="outline-primary" style={{ height: "230px", width: '160px' }} className='shadow' >
                 <FaPlus />
